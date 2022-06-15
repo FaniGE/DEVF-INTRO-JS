@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.teal {
+background-color: #20c997;
+}
+.pink {
+    background-color: #d63384;
+}
+.orange {
+    background-color: #fd7e14;
+}
+.bi{
+    font-size:50px;
+    display:flex;
+    justify-content: center
+}
