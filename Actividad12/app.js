@@ -11,8 +11,6 @@ let operation="";
 
 addEvents();
 
-/* Add event for all buttons */
-
 function addEvents(){
     buttons.forEach(button => {
         button.addEventListener('click',getElementClick);
