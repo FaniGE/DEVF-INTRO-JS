@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-lg-3 ml-1">
+          <nav class="navbar bg-light m-2">
+              <div class="container-fluid">
+                <form id="form-busqueda" class="d-flex" role="search">
+                  <input id="inputName" class="form-control me-2" type="search" placeholder="search..." aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit" id="buscar_x">Search</button>
+                </form>
+              </div>
+            </nav>
+          <div id="optionGenre" class="list-group list-group-vertical">
+              <h6 class="text-start fw-bold">Peliculas</h6>
+              <a href="#" class="list-group-item list-group-item-action genero" onclick="return_genero('Infantil')">Infantil</a>
+              <a href="#" class="list-group-item list-group-item-action genero" onclick="return_genero('Ciencia Ficción')">Ciencia Ficción</a>
+              <a href="#" class="list-group-item list-group-item-action genero" onclick="return_genero('Terror')">Terror</a>
+              <input type="hidden" id="inputGenre" >
+          </div>
+      </div>
+      <div class="col-lg-9 m-6">
+        <main>
+            <div id="movies" class="container-md ">
+              <div id="box-peliculas" class="row row-cols-2">
+        
+            </div>
+          </main>
+      </div>
+    </div>
+  </div>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+       <script src="./peliculas.js"></script>
+       <script src="./code.js"></script>
+  </body>
+</html>
