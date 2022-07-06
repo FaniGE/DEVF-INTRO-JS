@@ -31,7 +31,7 @@ const numbers = [1,2,3,4,10,11];
 console.log (suma_x(numbers));
 
 // ejercicio 3
-// polimdormos
+// palíndromos
 function verificar(palabra1) {
     if(palabra1.split('').reverse().join('')==palabra1){
         return true;
